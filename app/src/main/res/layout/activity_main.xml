@@ -17,10 +17,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/Signup"
+        android:id="@+id/SingUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign up"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="616dp" />
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="80dp"
+        android:text="Sign Up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
